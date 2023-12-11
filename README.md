@@ -1,1 +1,29 @@
 # Church-Management-System
+
+STAFF MEMBER CREDENTIALS(High Privileges):
+Username: sofia	
+Password: sofia12345
+
+
+CHURCH MEMBER CREDENTIALS(Low Privileges):
+Username: jason
+Password: jason12345
+
+To Run Django Website Please Use The Below Command:
+python manage.py runserver
+
+Linear Regression Files run to view the regression model/graph:
+Files to Run			    |      Command to run the file
+simple_linear_regression.py	    |      python simple_linear_regression.py
+sml.py	    			    |      python sml.py
+sml3.py	    			    |      python sml3.py
+ 
+
+Predictions Files run to view the prediction model/graph:
+Files to Run			    |      Command to run the file               |Purpose of File
+sml_prediction.py		    |      sml_prediction.py                     |Members Event Donations predictions 
+sml3_prediction.py		    |      sml3_prediction.py 			 |Total Event Donations predictions
+member_regression_predict2.py	    |      member_regression_predict2.py         |Jason Donations predictions (Church Member)                 
+member_regression_predict2,5.py	    |      member_regression_predict2,5.py	 |Sofia Donations predictions (Church Staff Member)
+member_regression_predict3.py	    |      member_regression_predict3.py	 |Jason Donations Probabilistic Predictions (Church Member) 
+
